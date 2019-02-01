@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 20px 50px;
+  background: #e8e1ca;
+  color: #0e2b61;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+b {
+    code {
+        font-size: 18px;
+        color: #4087c5;
+    }
+}
+table {
+    border: 1px solid #999;
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 30px;
+    td {
+        padding: 15px;
+        border: 1px solid #999;
+        h3 {
+            margin-top: 5px;
+        }
+    }
+}
+
+img {
+    &.help {
+        max-width: 90px;
+        float: right;
+    }
+    &.bacon {
+        width: 100%;
+    }
+}
+
+h4 {
+    padding: 4px 10px;
+    background: white;
+    display: inline-block;
+    box-shadow: 0 7px 15px 0 rgba(0,0,0,.11),0 5px 15px 0 rgba(0,0,0,.08);
+}
